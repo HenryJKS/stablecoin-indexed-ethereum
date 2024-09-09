@@ -1,3 +1,5 @@
+# Overview
+
 The HJKStableCoin contract is a stablecoin implementation indexed to the price of ETH using Chainlink's ETH/USD price feed. This stablecoin is pegged to the value of ETH, meaning that 1 ETH will mint a proportional amount of HSC tokens (HJKStableCoin), determined by the current ETH/USD rate.
 
 The contract includes the following features:
