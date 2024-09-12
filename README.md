@@ -10,11 +10,10 @@ The contract includes the following features:
 - Price data is fetched from Chainlink's decentralized oracle network for secure price information.
 - Ownership can be transferred but not renounced for security purposes.
 
-
 ## Prerequisites
+
 - **Before** deploying and interacting with this contract, you will need:
 - **Truffle** Suite for development and deployment of Ethereum smart contracts.
 - **Node.js** and npm to install required dependencies.
-- **Ganache** for a local Ethereum blockchain, or access to an Ethereum testnet (like Rinkeby or Goerli).
+- **Ganache** for a local Ethereum blockchain, or access to an Ethereum testnet (like Sepolia or Goerli).
 - **MetaMask** for managing accounts and sending transactions.
-

@@ -13,7 +13,7 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 contract HJKStableCoin is ERC20, Ownable {
     // TokenTimelock public timeLock;
 
-    AggregatorV3Interface internal dataFeed;
+    AggregatorV3Interface internal dataFeed; 
 
     mapping(address => uint256) public collateral;
 
